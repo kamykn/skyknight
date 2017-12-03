@@ -43,11 +43,6 @@ hi Type ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
 hi Operator ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
 
 " ============
-"  yellowgreen
-" ============
-hi Function ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-
-" ============
 "  emerald green
 " ============
 hi Function ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
@@ -55,7 +50,12 @@ hi Define ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
 hi DiffAdd ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
 hi Question ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
 hi Conditional ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
-hi PreProc ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
+
+" ============
+"  yellowgreen
+" ============
+hi Function ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi PreProc ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 
 " ============
 "  yellow
@@ -92,8 +92,6 @@ hi LineNr ctermfg=102 ctermbg=237 cterm=NONE guifg=#90908a guibg=#3c3d37 gui=NON
 hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#64645e guibg=#64645e gui=NONE
 hi StatusLine ctermfg=231 ctermbg=241 cterm=bold guifg=#f8f8f2 guibg=#64645e gui=bold
 hi StatusLineNC ctermfg=231 ctermbg=241 cterm=NONE guifg=#f8f8f2 guibg=#64645e gui=NONE
-hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi Folded ctermfg=242 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NONE
 hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi Normal ctermfg=231 ctermbg=235 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
@@ -106,6 +104,11 @@ hi SpecialKey ctermfg=59 ctermbg=237 cterm=NONE guifg=#49483e guibg=#3c3d37 gui=
 hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#f8f8f2 guibg=NONE gui=bold
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 
+" =================
+"  menu
+" =================
+hi Pmenu ctermfg=186 ctermbg=236 cterm=NONE guifg=#e6db74 guibg=#3c3d37 gui=NONE
+hi PmenuSel ctermfg=43 ctermbg=59 cterm=NONE guifg=#00d7a7 guibg=#49483e gui=NONE
 
 " =================
 "  link
