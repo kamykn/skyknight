@@ -29,14 +29,14 @@ hi DiffText ctermfg=235 ctermbg=186 cterm=NONE guifg=#272822 guibg=#e6db74 gui=N
 " ============
 "  skyblue
 " ============
-hi Statement ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
-hi Directory ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
-hi MatchParen ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
-hi Structure ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
-hi Identifier ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
-hi StorageClass ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
-hi Type ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
-hi Operator ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
+hi Statement ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Directory ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi MatchParen ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Structure ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Identifier ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi StorageClass ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Type ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Operator ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
 
 " ============
 "  yellowgreen

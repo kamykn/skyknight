@@ -1,5 +1,5 @@
 # Overview
-![skyknight ScreenShot](https://github.com/kmszk/skyknight/raw/master/src/ss.png?v=2)
+![skyknight ScreenShot](https://github.com/kmszk/skyknight/raw/master/src/ss.png?v=3)
 
 # Install
 ## Plug
