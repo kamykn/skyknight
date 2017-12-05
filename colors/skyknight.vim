@@ -24,19 +24,16 @@ hi SpellBad cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE g
 " ============
 hi String ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi Character ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi DiffText ctermfg=235 ctermbg=186 cterm=NONE guifg=#272822 guibg=#e6db74 gui=NONE
 
 " ============
 "  skyblue
 " ============
 hi Statement ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Identifier ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Type ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
 hi Directory ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
 hi MatchParen ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
-hi Structure ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
-hi Identifier ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
 hi StorageClass ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
-hi Type ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
-hi Operator ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
 
 " ============
 "  yellowgreen
@@ -56,6 +53,8 @@ hi Label ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
 hi Boolean ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
 hi Float ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
 hi Number ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Operator ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Structure ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
 
 " ============
 "  yellow
@@ -68,6 +67,7 @@ hi Todo ctermfg=226 ctermbg=NONE cterm=NONE guifg=#ffff00 guibg=NONE gui=NONE
 " ============
 hi Search ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff8700 guibg=NONE gui=NONE
 hi IncSearch ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff8700 guibg=NONE gui=NONE
+hi DiffText ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff8700 guibg=NONE gui=NONE
 
 " ============
 "  red
