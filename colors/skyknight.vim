@@ -20,14 +20,10 @@ hi clear SpellCap " & ALE
 hi SpellBad cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE guibg=NONE
 
 " ============
-"  Yamabuki
+"  yamabuki
 " ============
-hi Label ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi String ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi Character ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi Boolean ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi Float ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi Number ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi DiffText ctermfg=235 ctermbg=186 cterm=NONE guifg=#272822 guibg=#e6db74 gui=NONE
 
 " ============
@@ -43,19 +39,23 @@ hi Type ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
 hi Operator ctermfg=80 ctermbg=NONE cterm=NONE guifg=#5fd7d7 guibg=NONE gui=NONE
 
 " ============
-"  emerald green
-" ============
-hi Function ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
-hi Define ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
-hi DiffAdd ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
-hi Question ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
-hi Conditional ctermfg=43 ctermbg=NONE cterm=NONE guifg=#00d7a7 guibg=NONE gui=NONE
-
-" ============
 "  yellowgreen
 " ============
 hi Function ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi PreProc ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi Define ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi DiffAdd ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi Question ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi Conditional ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+
+" ============
+"  gray
+" ============
+hi Function ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NONE
+hi PreProc ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Label ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Boolean ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Float ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Number ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
 
 " ============
 "  yellow
@@ -70,15 +70,15 @@ hi Search ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff8700 guibg=NONE gui=NONE
 hi IncSearch ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff8700 guibg=NONE gui=NONE
 
 " ============
-"  magenta
+"  red
 " ============
-hi Keyword ctermfg=197 ctermbg=NONE cterm=NONE guifg=#ff005f guibg=NONE gui=NONE
-hi Special ctermfg=197 ctermbg=NONE cterm=NONE guifg=#ff005f guibg=NONE gui=NONE
-hi Tag ctermfg=197 ctermbg=NONE cterm=NONE guifg=#ff005f guibg=NONE gui=NONE
-hi DiffDelete ctermfg=197 ctermbg=NONE cterm=NONE guifg=#ff005f guibg=NONE gui=NONE
-hi MatchParen ctermfg=197 ctermbg=NONE cterm=underline guifg=#ff005f guibg=NONE gui=underline
-hi ErrorMsg ctermfg=231 ctermbg=197 cterm=NONE guifg=#f8f8f0 guibg=#ff005f gui=NONE
-hi WarningMsg ctermfg=231 ctermbg=197 cterm=NONE guifg=#f8f8f0 guibg=#ff005f gui=NONE
+hi Keyword ctermfg=196 ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
+hi Special ctermfg=196 ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
+hi Tag ctermfg=196 ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
+hi DiffDelete ctermfg=196 ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
+hi MatchParen ctermfg=196 ctermbg=NONE cterm=underline guifg=#ff0000 guibg=NONE gui=underline
+hi ErrorMsg ctermfg=231 ctermbg=196 cterm=NONE guifg=#f8f8f0 guibg=#ff0000 gui=NONE
+hi WarningMsg ctermfg=231 ctermbg=196 cterm=NONE guifg=#f8f8f0 guibg=#ff0000 gui=NONE
 
 " =================
 "  black and white
@@ -95,7 +95,7 @@ hi StatusLineNC ctermfg=231 ctermbg=241 cterm=NONE guifg=#f8f8f2 guibg=#64645e g
 hi Folded ctermfg=242 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NONE
 hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi Normal ctermfg=231 ctermbg=235 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
-hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
+hi Comment ctermfg=240 ctermbg=NONE cterm=NONE guifg=#585858 guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=#243955 gui=NONE
 hi NonText ctermfg=59 ctermbg=236 cterm=NONE guifg=#49483e guibg=#31322c gui=NONE
@@ -107,8 +107,8 @@ hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gu
 " =================
 "  menu
 " =================
-hi Pmenu ctermfg=186 ctermbg=236 cterm=NONE guifg=#e6db74 guibg=#3c3d37 gui=NONE
-hi PmenuSel ctermfg=43 ctermbg=59 cterm=NONE guifg=#00d7a7 guibg=#49483e gui=NONE
+hi Pmenu ctermfg=249 ctermbg=236 cterm=NONE guifg=#a4a4a4 guibg=#3c3d37 gui=NONE
+hi PmenuSel ctermfg=80 ctermbg=59 cterm=NONE guifg=#5fd7d7 guibg=#49483e gui=NONE
 
 " =================
 "  link
