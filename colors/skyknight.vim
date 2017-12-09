@@ -26,35 +26,34 @@ hi String ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi Character ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 
 " ============
+"  gray
+" ============
+hi Statement ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Identifier ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Type ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi Directory ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+hi MatchParen ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
+
+" ============
 "  skyblue
 " ============
-hi Statement ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
-hi Identifier ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
-hi Type ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
-hi Directory ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
-hi MatchParen ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi PreProc ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Label ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Boolean ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Float ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Number ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Operator ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Structure ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
 hi StorageClass ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Function ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Define ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Question ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
+hi Conditional ctermfg=45 ctermbg=NONE cterm=NONE guifg=#00dfff guibg=NONE gui=NONE
 
 " ============
 "  yellowgreen
 " ============
-hi Function ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi Define ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 hi DiffAdd ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi Question ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi Conditional ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-
-" ============
-"  gray
-" ============
-hi Function ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NONE
-hi PreProc ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
-hi Label ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
-hi Boolean ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
-hi Float ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
-hi Number ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
-hi Operator ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
-hi Structure ctermfg=249 ctermbg=NONE cterm=NONE guifg=#a4a4a4 guibg=NONE gui=NONE
 
 " ============
 "  yellow
